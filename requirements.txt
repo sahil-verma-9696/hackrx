@@ -1,11 +1,8 @@
-fastapi==0.115.6
-uvicorn[standard]==0.32.1
-httpx==0.25.2
-pypdf==5.8.0
-pydantic==2.10.3
-python-multipart==0.0.6
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
 python-dotenv==1.0.0
-
-
-
-pip install langchain langchain-experimental langchain-community sentence-transformers
+requests==2.31.0
+PyPDF2==3.0.1
+google-generativeai==0.3.2
+python-multipart==0.0.6
