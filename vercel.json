@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "vercel-nextjs",
+    "builds": [
+        {
+            "src": "main.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
+}
